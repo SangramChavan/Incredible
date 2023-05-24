@@ -55,7 +55,7 @@
                 <div class="col-lg-6">
                     <!-- Mashead text and app badges-->
                     <div class="text-center text-lg-start mb-5 mb-lg-0">
-                        <h1 class="display-1 lh-1 mb-3">Make class="typing"></h1>
+                        <h1 class="display-1 lh-1 mb-3">Make Offer or Request</h1>
                         <p class="lead fw-normal text-muted mb-5">App for enhancing life through share, exchange, offer, requests and more
                         </p>
                         <div class="d-flex flex-column flex-lg-row align-items-center">
@@ -274,44 +274,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <script>
-                    const texts = ['Offer','Request'];
-                    var count = 0;
-                    var index = 0;
-                    var decrement = 0;
-                    var currentText = '';
-                    var letter = '';
-
-                    function sleep(delay){
-                        return new Promise(resolve => setTimeout(resolve,delay));
-                        }
-
-                    const typeWrite = async() =>{
-                    if (count == texts.length)
-                    {
-                        count = 0;
-                    }
-                    currentWord = texts[count];
-                    currentLetter = currentWord.slice(0,++index);
-                    document.querySelector(".typing").textContent = currentLetter;
-                    if(index == currentWord.length)
-                    {
-                        await sleep(1500);
-                        while(index > 0)
-                        {
-                        currentLetter = currentWord.slice(0,--index);
-                        document.querySelector(".typing").textContent = currentLetter;
-                        await sleep(50);
-                        }
-                        count++;
-                        index = 0;
-                        await sleep(500);
-                    }
-                    setTimeout(typeWrite,Math.random()*200+50);
-                    }
-                    typeWrite();
-    </script>
+<script src="js/scripts.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
