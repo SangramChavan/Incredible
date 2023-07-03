@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="143.114 192.211 286.23 70.592" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip_3">
+      <path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H1562.5V1562.5H0Z" fill-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip_3)" transform="matrix(1, 0, 0, 1, 100.893005, 44.574795)">
+    <text transform="matrix(.75 0 0 .75 42.22133 155.43103)" font-size="79.99" font-family="Roboto" style="white-space: pre;"><tspan y="64" x="0 17.753577 57.885583 95.75241 118.81745 157.192 198.30039 213.71067 254.58472 269.995 308.36955">Incredibles</tspan></text>
+    <text transform="matrix(.75 0 0 .75 303.8083 150.18103)" font-size="23.99" font-family="Roboto" style="white-space: pre;"><tspan y="19" x="0 12.25609 19.17191">pro</tspan></text>
+  </g>
+</svg>
